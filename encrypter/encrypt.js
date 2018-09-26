@@ -4,7 +4,6 @@ function encrypt() {
     let firstInitial = document.getElementById("firstInitial").value.toLowerCase();
     let lastInitial = document.getElementById("lastInitial").value.toLowerCase();
     
-
     if (string === "") {
         alert("You didn't give us a string!");
         return;
