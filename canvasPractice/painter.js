@@ -27,7 +27,6 @@ function Circle(x, y, dx, dy, radius) {
             this.dy = -this.dy;
         }
         
-        
         this.x += this.dx;
         this.y += this.dy;
 
