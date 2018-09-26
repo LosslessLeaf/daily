@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>Encrypter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Encrypter</h1>
+        </div>
+        <div class="form">
+            <form id="myForm">
+                <div id="stringBox">
+                    <label name="string">Enter a string to encrypt: </label>
+                    <input type="text" id="string" name="string"><br />
+                </div>
+                <div id="firstInitialBox">
+                    <label name="first-intial">Enter your first initial: </label>
+                    <input type="text" id="firstInitial" name="first-initial"><br />
+                </div>
+                <div id="lastInitialBox">
+                    <label name="last-initial">Enter your last initial: </label>
+                    <input type="text" id="lastInitial" name="last-initial"><br />
+                </div>
+                <input id="submit" type="button" value="Submit" onclick="encrypt()">
+                <input id="clear" type="button" value="Clear" onclick="clearForm()">
+            </form>
+        </div>
+        <div class="answer">
+            <p id="encrypted"></p>
+        </div>
+    </div>
+
+
+    <script src="encrypt.js"></script>
+</body>
+
+</html>
+    
