@@ -28,7 +28,12 @@ form {
     flex-direction: column;
     padding-top: 20px;
 }
-
+label {
+    font-size: 22px;
+}
+[type="button"] {
+    font-size: 22px;
+}
 #stringBox {
     display: flex;
     flex-direction: row;
