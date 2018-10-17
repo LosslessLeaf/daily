@@ -15,7 +15,7 @@ function Circle(x, y, dx, dy, radius) {
     this.draw = function() {
         c.beginPath();
         c.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
-        c.strokeStyle = "white";
+        c.strokeStyle = "rgb(150, 120, 255)";
         c.stroke();
     }
 
@@ -38,12 +38,12 @@ function Circle(x, y, dx, dy, radius) {
 
 let circleArray = [];
 
-for (let i = 0; i < 100; i++) {
-    let x = Math.random() * canvas.width;
-    let y = Math.random() * canvas.height;
+for (let i = 0; i < 50; i++) {
+    let radius = 30;
+    let x = Math.random() * (canvas.width - radius * 2) + radius;
+    let y = Math.random() * (canvas.height - radius * 2) + radius;
     let dx = (Math.random() - 0.5) * 8;
     let dy = (Math.random() - 0.5) * 8;
-    let radius = 30;
     
     circleArray.push(new Circle(x, y, dx, dy, radius));
 }
