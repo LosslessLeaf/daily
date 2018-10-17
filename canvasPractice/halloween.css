@@ -23,3 +23,7 @@ canvas {
     position: absolute;
     box-shadow: 150px 240px 0 0 currentColor;
 }
+
+.handle {
+    position: relative;
+}
