@@ -13,17 +13,3 @@ canvas {
     display: block;
     margin: 0;
 }
-
-.moustache {
-    height: 180px;
-    width: 180px;
-    border-radius: 50%;
-    color: #fff;
-    background-color: currentColor;
-    position: absolute;
-    box-shadow: 150px 240px 0 0 currentColor;
-}
-
-.handle {
-    position: relative;
-}
