@@ -7,7 +7,7 @@
     color: #aaa;
     background-color: currentColor;
     
-    border: 1px solid black;
+    border: 2px solid black;
     z-index: 10;
     border-radius: 10px;
 }
@@ -22,7 +22,7 @@
     background-color: currentColor;
     top: -30%;
     left: 0%;
-    border: 1px solid black;
+    border: 2px solid black;
     border-bottom-color: transparent;
     border-left-color: transparent;
     transform: rotateZ(-45deg);
@@ -37,7 +37,7 @@
     top: -50%;
     left: 45%;
     border-radius: 15px 15px 0 0;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 .head-thing::after {
@@ -76,7 +76,7 @@
     left: 36.5%;
     z-index: 10;
     border-radius: 50px;
-    border: 1px solid black;
+    border: 2px solid black;
 }
 
 .eye-container-inner {
@@ -164,7 +164,7 @@
     color: #f5fc8f;
     background-color: currentColor;
     border-radius: 25px;
-    border: 1px solid black;
+    border: 2px solid black;
     top: 55%;
     left: 6%;
 }
