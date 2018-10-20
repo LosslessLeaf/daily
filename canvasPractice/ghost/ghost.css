@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: rgb(40, 40, 40);
+}
+
+.wrapper {
+    width: 100%;
+    height: 100vh;
+    box-sizing: border-box;
+    position: absolute;
+}
+
+.circle {
+    width: 800px;
+    height: 800px;
+    color: orange;
+    position: absolute;
+    top: 20%; 
+    left: 20%;
+    background-color: currentColor;
+    border-radius: 50%;
+}
+
+.head {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    border-radius: 50%;
+    top: 45%;
+    left: 38%;
+    color: #fff;
+    background-color: currentColor;
+    z-index: 10;
+}
+
+.right-eye {
+    top: 20%;
+    left: 25%;
+    width: 40px;
+    height: 40px;
+    color: #000;
+    background-color: currentColor;
+    border-radius: 50%;
+    position: absolute;
+    
+}
+
+.left-eye {
+    top: 20%;
+    left: 50%;
+    width: 40px;
+    height: 40px;
+    color: #000;
+    background-color: currentColor;
+    border-radius: 50%;
+    position: absolute;
+    
+}
+
+.mouth {
+    top: 45%;
+    left: 35%;
+    width: 40px;
+    height: 40px;
+    color: #000;
+    background-color: currentColor;
+    border-radius: 50%;
+    position: absolute;
+    
+}
+
+.body {
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 65%;
+    left: 38%;
+    color: #fff;
+    background-color: currentColor;
+    border-radius: 15px 15px 0 75%;
+}
+
+
+.right-arm {
+    position: absolute;
+    width: 200px;
+    height: 75px;
+    color: #fff;
+    background-color: currentColor;
+    transform: rotateZ(45deg);
+    border-radius: 50% 0 0 50%;
+    top: 65%;
+    left: 30%;
+}
+
+.left-arm {
+    position: absolute;
+    width: 200px;
+    height: 75px;
+    color: #fff;
+    background-color: currentColor;
+    transform: rotateZ(135deg);
+    border-radius: 50% 0 0 50%;
+    top: 65%;
+    left: 55%;
+}
