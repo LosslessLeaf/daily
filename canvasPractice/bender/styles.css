@@ -1,0 +1,250 @@
+.head {
+    position: absolute;
+    width: 200px;
+    height: 300px;
+    top: 30%;
+    left: 40%;
+    color: #aaa;
+    background-color: currentColor;
+    
+    border: 1px solid black;
+    z-index: 10;
+    border-radius: 10px;
+}
+
+.head::before {
+    content: "";
+    position: absolute;
+    width: 198px;
+    height: 200px;
+    color: #aaa;
+    border-radius: 50%;
+    background-color: currentColor;
+    top: -30%;
+    left: 0%;
+    border: 1px solid black;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    transform: rotateZ(-45deg);
+}
+
+.head-thing {
+    position: absolute;
+    width: 15px;
+    height: 50px;
+    color: #aaa;
+    background-color: currentColor;
+    top: -50%;
+    left: 45%;
+    border-radius: 15px 15px 0 0;
+    border: 1px solid black;
+}
+
+.head-thing::after {
+    content: "";
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    color: #ddd;
+    background-color: currentColor;
+    top: 90%;
+    left: -90%;
+    border-radius: 18px 18px 0 0;
+    border: 1px solid black;
+}
+
+.head-thing::before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    color: #ddd;
+    background-color: currentColor;
+    border-radius: 50%;
+    border: 1px solid black;
+    top: -20%;
+    left: -40%;
+}
+
+.eye-container-outer {
+    position: absolute;
+    width: 300px;
+    height: 125px;
+    color: #aaa;
+    background-color: currentColor;
+    top: 30%;
+    left: 36.5%;
+    z-index: 10;
+    border-radius: 50px;
+    border: 1px solid black;
+}
+
+.eye-container-inner {
+    position: absolute;
+    width: 280px;
+    height: 100px;
+    color: #000;
+    background-color: currentColor;
+    z-index: 20;
+    top: 10%;
+    left: 3%;
+    border-radius: 40px;
+}
+.right-eye {
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    color: #f5fc8f;
+    background-color: currentColor;
+    border-radius: 50%;
+    top: 5%;
+    left: 12%;
+}
+
+.right-eye::before {
+    content: "";
+    position: absolute;
+    width: 225px;
+    height: 30px;
+    color: #000;
+    background-color: currentColor;
+    z-index: 100;
+    left: -5%;
+}
+
+.right-eye::after {
+    content: "";
+    position: absolute;
+    width: 215px;
+    height: 10px;
+    color: #000;
+    background-color: currentColor;
+    z-index: 100;
+    top: 89%;
+    left: 0%;
+}
+
+.left-eye {
+    position: absolute;
+    width: 95px;
+    height: 95px;
+    color: #f5fc8f;
+    background-color: currentColor;
+    border-radius: 50%;
+    top: 5%;
+    left: 55%;
+}
+
+.left-eye::before {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 15px;
+    color: #000;
+    background-color: currentColor;
+    top: 45%;
+    left: -85%;
+}
+
+.left-eye::after {
+    content: "";
+    position: absolute;
+    width: 25px;
+    height: 15px;
+    color: #000;
+    background-color: currentColor;
+    top: 45%;
+    left: 35%;
+}
+
+.mouth-container {
+    position: absolute;
+    width: 175px;
+    height: 75px;
+    color: #f5fc8f;
+    background-color: currentColor;
+    border-radius: 25px;
+    border: 1px solid black;
+    top: 55%;
+    left: 6%;
+}
+
+.top-hline {
+    position: absolute;
+    width: 175px;
+    height: 2px;
+    color: #000;
+    background-color: currentColor;
+    top: 25%;
+}
+
+.top-hline::before {
+    content: "";
+    position: absolute;
+    width: 175px;
+    height: 2px;
+    color: #000;
+    background-color: currentColor;
+    top: 1500%;
+    left: 0%;
+}
+
+.left-mid-vline {
+    position: absolute;
+    height: 75px;
+    width: 2px;
+    color: #000;
+    background-color: currentColor;
+    left: 30%;
+    
+}
+
+.left-mid-vline::before {
+    content: "";
+    position: absolute;
+    height: 75px;
+    width: 2px;
+    color: #000;
+    background-color: currentColor;
+    left: -1250%;
+}
+
+.left-mid-vline::after {
+    content: "";
+    position: absolute;
+    height: 75px;
+    width: 2px;
+    color: #000;
+    background-color: currentColor;
+    left: 1250%;
+}
+
+.right-mid-vline {
+    position: absolute;
+    height: 75px;
+    width: 2px;
+    color: #000;
+    background-color: currentColor;
+    left: 70%;
+    
+}
+
+.right-mid-vline::before {
+    content: "";
+    position: absolute;
+    height: 75px;
+    width: 2px;
+    color: #000;
+    background-color: currentColor;
+    left: -1250%;
+}
+
+.right-mid-vline::after {
+    content: "";
+    position: absolute;
+    height: 75px;
+    width: 2px;
+    color: #000;
+    background-color: currentColor;
+    left: 1250%;
+}
