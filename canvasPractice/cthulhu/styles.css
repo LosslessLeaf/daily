@@ -1,0 +1,170 @@
+body {
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: #fff;
+}
+
+.head {
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    top: 30%;
+    left: 30%;
+    color: green;
+    border-radius: 50%;
+    background-color: currentColor;
+    border: 4px solid black;
+}
+
+.right-eye {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 30%;
+    left: 20%;
+    color: black;
+    border-radius: 50%;
+    background-color: currentColor;
+    z-index: 10;
+}
+
+.left-eye {
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    top: 30%;
+    left: 50%;
+    color: black;
+    border-radius: 50%;
+    background-color: currentColor;
+    z-index: 10;
+}
+
+.nose {
+    position: absolute;
+    height: 100px;
+    width: 40px;
+    top: 50%;
+    left: 20%;
+    color: green;
+    border: 3px solid black;
+    border-radius: 10%;
+    background-color: currentColor;
+    z-index: 10;    
+    transform: rotateZ(45deg);
+    border-top-color: transparent;
+}
+
+.nose::after {
+    content: "";
+    position: absolute;
+    height: 100px;
+    width: 40px;
+    color: green;
+    top: 80%;
+    right: 15%;
+    border: 3px solid black;
+    border-top-color: transparent;
+    border-radius: 0 0 20px 20px;
+    background-color: currentColor;
+    z-index: 10;
+    transform: rotateZ(10deg);
+}
+
+.tent1 {
+    position: absolute;
+    height: 150px;
+    width: 50px;
+    top: 60%;
+    left: 30%;
+    color: green;
+    transform: rotateZ(10deg);
+    border-radius: 0 0 40px 40px;
+    background-color: currentColor;
+    border: 2px solid black;
+    border-top-color: transparent;
+}
+
+.tent1::after {
+    content: "";
+    position: absolute;
+    height: 150px;
+    width: 50px;
+    top: 70%;
+    left: 40%;
+    border: 2px solid black;
+    border-radius: 10px 10px 40px 40px;
+    color: green;
+    transform: rotateZ(-20deg);
+    border-top-color: transparent;
+    background-color: currentColor;
+}
+
+.tent2 {
+    position: absolute;
+    height: 150px;
+    width: 50px;
+    top: 70%;
+    left: 35%;
+    color: green;
+    transform: rotateZ(-10deg);
+    border-radius: 40px;
+    background-color: currentColor;
+}
+
+.tent2::after {
+    content: "";
+    position: absolute;
+    height: 150px;
+    width: 45px;
+    top: 80%;
+    left: -30%;
+    color: green;
+    transform: rotateZ(20deg);
+    background-color: currentColor;
+    border-radius: 30px;
+}
+
+.tent3 {
+    position: absolute;
+    height: 150px;
+    width: 50px;
+    top: 70%;
+    left: 40%;
+    color: green;
+    transform: rotateZ(-10deg);
+    border-radius: 40px;
+    background-color: currentColor;
+}
+
+.tent4 {
+    position: absolute;
+    height: 150px;
+    width: 50px;
+    top: 70%;
+    left: 45%;
+    color: green;
+    transform: rotateZ(15deg);
+    border-radius: 40px;
+    background-color: currentColor;
+}
+
+.tent4::after {
+    content: "";
+    position: absolute;
+    height: 150px;
+    width: 45px;
+    top: 80%;
+    left: 50%;
+    color: green;
+    transform: rotateZ(-20deg);
+    background-color: currentColor;
+    border-radius: 30px;
+}
