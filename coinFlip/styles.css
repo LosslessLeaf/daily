@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Architects Daughter", sans-serif;
+    font-size: 16px;
+}
+
+#coinContainer {
+    display: grid;
+    grid-template-areas: 
+        "space input output space"
+        "footer"
+    ;
+}
+
+.input {
+    grid-area: "input";
+    background-color: blue;
+    grid-column-start: 1;
+    grid-column-end: 4;
+    height: 40px;
+}
+
+.output {
+    grid-area: "output";
+    background-color: red;
+    grid-column-start: 4;
+    grid-column-end: 7;
+    height: 50px;
+}
+
+.footer {
+    grid-area: "footer";
+    grid-column-start: 1;
+    grid-column-end: 7;
+    height: 200px;
+}
